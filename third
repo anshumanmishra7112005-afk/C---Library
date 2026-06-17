@@ -1,0 +1,23 @@
+#include <iostream>
+
+int addNumbers(int First_param, int Second_param) {
+	std::cout << "First original number :" << First_param << std::endl;
+	std::cout << "Second original number :" << Second_param << std::endl;
+	int result = First_param + Second_param;
+	return result;
+}
+int main()
+{
+	int First_Number{ 2 };
+	int Second_Number{ 3 };
+
+	std::cout << "First Number :" << First_Number << std::endl;
+	std::cout << "Seecond Number :" << Second_Number << std::endl;
+
+	int sum = First_Number + Second_Number;
+	std::cout << "Sum :" << sum << std::endl;
+
+	sum = addNumbers(30, 25);
+	std::cout << "Sum :" << sum << std::endl;
+	return(0);
+}
