@@ -1,0 +1,21 @@
+#include <iostream>
+int multiplyNumbers(int First_param, int Second_param) {
+	std::cout << "First original number :" << First_param << std::endl;
+	std::cout << "Second original number : " << Second_param << std::endl;
+	int result = First_param * Second_param;
+	return result;
+}
+int main() {
+	int First_Number{ 20 };
+	int Second_Number{ 3 };
+	std::cout << "First Number :" << First_Number << std::endl;
+	std::cout << "Second Number :" << Second_Number << std::endl;
+    int Product = First_Number * Second_Number;
+	std::cout << "Product :" << Product << std::endl;
+
+	Product = multiplyNumbers(15, 5);
+	std::cout << "Product :" << Product << std::endl;
+
+	return 0;
+
+}
