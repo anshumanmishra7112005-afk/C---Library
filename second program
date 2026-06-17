@@ -1,0 +1,16 @@
+#include <iostream>
+// This is the first practice program in C++
+int main() {
+	std::cout << "My name is Anshuman Mishra" << std::endl;
+	std::cout << "I am 20 years old" << std::endl;
+	/*
+	   Block comment cannot be nested in C++.
+	*/
+	std::cout << "I am a student of Mechanical and automobile engineering" << std::endl;
+	std::cout << "I currently ended my 1st year of engineering" << std::endl;
+	std::cout << "I live in Lucknow, Uttar Pradesh" << std::endl;
+	std::cout << "I am interested in C++ and rubyonrails pragramming languages" << std::endl;
+	std::cout << "I am also interested in learning MATLAB and Simulink" << std::endl;
+	std::cout << "Thank you for giving me this opportunity to introduce myself" << std::endl;
+
+}
