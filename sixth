@@ -1,0 +1,16 @@
+#include <iostream>
+
+#include <string>
+
+int main() {
+
+	std::string Country;
+
+	std::cout << "Where do you live?: " << std::endl;
+	std::getline(std::cin, Country);
+	std::cin >> Country;
+	std::cout << "Where do you live?: " << Country << std::endl;
+	std::cout << " I have heard great things about " << Country << ". I'd like to go sometime." << std::endl;
+	return 0;
+
+}
