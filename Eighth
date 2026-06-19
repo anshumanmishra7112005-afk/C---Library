@@ -1,0 +1,37 @@
+#include <iostream>
+
+int main()
+
+{
+
+	double width;
+
+	double length;
+
+	double height;
+
+	std::cout << "Welcome to the box calculator. Please type in length, width, heigth information" << std::endl;
+
+	std::cout << "Length :";
+
+	std::cin >> length;
+
+	std::cout << "Width :" ;
+
+	std::cin >> width;
+
+	std::cout << "Height :" ;
+
+	std::cin >> height;
+
+	double base_area = width * length;
+
+	double volume = base_area * height;
+
+	std::cout << "Base Area : " << base_area << std::endl;
+
+	std::cout << "Volume :" << volume << std::endl;
+
+	return (0);
+
+}
